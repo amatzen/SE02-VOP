@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'dk.alexander.sdu.se02.vop'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+    }
+}
+dependencies {
+    compile 'junit:junit:4.12'
+}
